@@ -10,4 +10,6 @@ python machine learning
  - launch cmd 
  - navigate to the directory where your python script is located
  - launch the script by typing python script_name.py. *change script_name.py to correspond to the actual name of your python script file*
+ - input the values for the column to forecast in forecast_col, number of forecasts to predict in forecast out and the test size in test_size
+ - press enter after each input to save the entered value. The script will execute automatically after the last input
  
