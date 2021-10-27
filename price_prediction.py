@@ -25,9 +25,9 @@ df = pd.read_csv('C:\\Users\\Sami\\Downloads\\TTE.csv')
 print (df)
 
 #declaring variables
-forecast_col = 'Close'
-forecast_out = 5
-test_size = 0.2
+forecast_col = input ("Enter the name of the column you want to forecast: ")
+forecast_out = int(input("Enter the number of forecasts to output: "))
+test_size = float(input("Enter the test size: "))
 
 #splitting the data and fitting it into the regression model
 X_train, X_test, Y_train, Y_test, X_lately = prepare_data(df, forecast_col, forecast_out, test_size);
